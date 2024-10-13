@@ -358,6 +358,16 @@ function generateBalloonPath( x, y, size ){
 									   x,            y );
 }
 
+window.onload = function () {
+    const canvas = document.getElementById('c');
+
+    // Redirect to desired URL when the canvas is clicked
+    canvas.addEventListener('click', () => {
+        window.location.href = './card/card.html'; // Replace with your target URL
+    });
+};
+
+
 function anim(){
 	
 	window.requestAnimationFrame( anim );
@@ -402,3 +412,4 @@ window.addEventListener( 'resize', function(){
 	
 	ctx.font = opts.charSize + 'px Verdana';
 })
+
