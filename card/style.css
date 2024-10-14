@@ -6,6 +6,8 @@
 }
 body {
   background-color: #fdbf00;
+  width: 1000px;
+  height: 600px;
 }
 .card {
   width: 640px;
@@ -32,6 +34,13 @@ body {
   width: 50%;
   position: absolute;
   left: 50.1%;
+}
+.ages{
+	text-align:right!important;
+	margin-right: 20px;
+	margin-top: 55px!important;
+	transform: rotate(340deg);
+	font-size: 30px!important;
 }
 .inside {
   background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
@@ -137,5 +146,13 @@ body {
 }
 .inside h1 {
   font-size: 120px;
-  line-height: 120px;
+  line-height: 130px;
+}
+.inside a {
+  color: #8d8176;
+  text-decoration: none !important;
+  border: none !important;
+}
+.inside p {
+  line-height: 1!important;
 }
