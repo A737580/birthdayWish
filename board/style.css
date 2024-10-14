@@ -2,6 +2,15 @@
 body {
   background: #fdbf00;
   font-family: "Open Sans", sans-serif;
+  
+}
+.box {
+  animation: 2s show ease;
+}
+
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 h1 {
